@@ -13,7 +13,7 @@ const AboutPage = () => {
         <div className="bg-black rounded-lg dark:bg-gray-800 md:flex w-full md:w-auto mx-10 p-10 md:items-center">
             <h1>
               Kanban Blog!
-              There you can read another's blogs and etc.
+              There you can read anothers blogs and etc.
 
               This website is powered by Brotherhood of Internet Stores and <span> </span>
               <a href="/lol/Okoshko/Production" className="hover:underline">Okoshko Production</a>.

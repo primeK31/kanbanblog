@@ -16,7 +16,7 @@ const BlogPage = async () => {
         </Head>
         <Heads>
         </Heads>
-          {data.map((blog, index) => (
+          {data.map((blog) => (
             <a href={`/blog/${blog.id}`}>
               <div className="bg-black rounded-lg dark:bg-gray-800 w-full md:w-auto m-10 p-10">
                   <h1 className="text-2xl">{blog.title}</h1>
