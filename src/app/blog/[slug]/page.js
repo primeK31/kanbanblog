@@ -8,8 +8,9 @@ const BlogDetail = async ({params: {slug}}) => {
 
     const file = await fs.readFile(process.cwd() + '/data/data.json', 'utf8');
     const data = JSON.parse(file);
+    const encodedSlug = encodeURIComponent(slug);
 
-    const blog = data.find(item => item.id === parseInt(slug, 10));
+    const blog = data.find(item => item.id === parseInt(encodedSlug, 10));
     console.log(slug)
 
     return(

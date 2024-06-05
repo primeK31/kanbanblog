@@ -29,6 +29,6 @@ const BlogPage = async () => {
         <Foots></Foots>
       </div>
     )
-  }
+}
   
 export default BlogPage;
